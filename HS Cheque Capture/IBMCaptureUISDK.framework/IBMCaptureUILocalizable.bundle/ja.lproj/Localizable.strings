@@ -1,0 +1,124 @@
+/* Created with Localizable Strings Merge, the swiss-army knife for iOS and OS X localization. */
+
+/* Accessibility (Hint): Settings menu button top right of Camera Controller */
+"Access list of jobs and applications." = "ジョブとアプリケーションのリストにアクセスする";
+
+/* Accessibility (Hint): Crop button in edit image controller */
+"Allows to flatten the document by selecting the four corners in the picture." = "Allows to flatten the document by selecting the four corners in the picture."; /* NEW */
+
+/* Camera mode name in switch button in camera controller
+   Title for button in Camera Controller toolbar */
+"Auto" = "オート";
+
+/* Filter button name in Camera controller */
+"B&W" = "白黒";
+
+/* Accessibility (Value): Camera filter button in Camera controller top toolbar */
+"Black and White" = "白黒";
+
+/* Accessibility (Label): Brightness slider in edit image view controller */
+"Brightness" = "Brightness"; /* NEW */
+
+/* Accessibility (Label): Filter button in edit image controller */
+"Brightness and contrast" = "Brightness and contrast"; /* NEW */
+
+/* Title of camera controller */
+"Camera" = "カメラ";
+
+/* Accessibility (Label): Camera filter button in Camera controller top toolbar */
+"Camera filter" = "フィルター";
+
+/* Accessibility (Label): Camera view in Camera Controller */
+"Camera preview" = "プレビュー";
+
+/* Accessibility (Label): Camera roll view in camera controller */
+"Camera roll view" = "カメラロール画面";
+
+/* Accessibility (Hint): Document type button in Camera controller */
+"Changes current document type." = "現在の文書タイプを変える";
+
+/* Accessibility (Hint): Photo gallery button in camera controller */
+"Choose from photo gallery." = "フォトギャラリーから選ぶ";
+
+/* Accessibility (Value): Camera filter button in Camera controller top toolbar
+   Filter button name in Camera controller
+   Title for button in Camera Controller toolbar */
+"Color" = "色";
+
+/* Accessibility (Label): Contrast slider in edit image view controller */
+"Contrast" = "Contrast"; /* NEW */
+
+/* Accessibility (Audio notification): message read out by device when photo in camera roll is deleted */
+"Deleted" = "削除しました";
+
+/* Accessibility (Label): Crop button in edit image controller
+   Deskew button title in edit view controller */
+"Deskew" = "Deskew"; /* NEW */
+
+/* Accessibility (Hint): Document type button in Camera controller */
+"Dismisses menu." = "戻る";
+
+/* Accessibility (Label): Document type button in Camera controller
+   Title for button in Camera Controller toolbar
+   Title of document type button when no document selected */
+"Document Type" = "文書タイプ";
+
+/* Accessibility (Hint): Photo in camera roll view in Camera Controller */
+"Draggable. Double tap and hold, wait for the sound, then drag up to delete" = "写真をドラッグできます。 画面を二回タップして画面を指で押さえたままトーン音を待ち、トーン音が鳴ったら画面の上方にドラッグして削除します。";
+
+/* Title of edit image view controller */
+"Edit image" = "Edit image"; /* NEW */
+
+/* Accessibility (Hint): Image editing view */
+"Features disabled in Voice Over mode" = "ボイスオーバーモードはオフに設定されています";
+
+/* Accessibility (Label): Flash button in Camera Controller top bar */
+"Flash" = "フラッシュ";
+
+/* Place holder text in camera roll in camera controller when there are no pictures */
+"Focus on a document" = "文書にフォーカスする";
+
+/* Accessibility (Hint): Camera view in Camera Controller */
+"Focus on a document to capture it" = "文書にフォーカスして写真を撮る";
+
+/* Accessibility (Label): Image editing view */
+"Image" = "画像";
+
+/* Camera mode name in switch button in camera controller */
+"Manual" = "マニュアル";
+
+/* Next button in Camera Controller to go to Document Assembly Controller */
+"Next" = "次へ";
+
+/* Accessibility (Value): Flash button in Camera Controller top bar
+   Flash button */
+"Off" = "オフ";
+
+/* Accessibility (Value): Flash button in Camera Controller top bar
+   Flash button */
+"On" = "オン";
+
+/* Accessibility (Hint): Filter button in edit image controller */
+"Opens brightness and contrast menu." = "Opens brightness and contrast menu."; /* NEW */
+
+/* Accessibility (Hint): Next button in Camera Controller to go to Document Assembly Controller */
+"Opens document assembly view." = "文書アセンブリ画面を開く";
+
+/* Accessibility (Label): Photo gallery button in camera controller */
+"Photo gallery" = "フォトギャラリー";
+
+/* Accessibility (Value): Photo in camera roll view in Camera Controller */
+"Photo number %ld, for page type %@, in document type %@" = "写真%1d、ページタイプ%@、文書タイプ%@";
+
+/* Accessibility (Label): Rotate button in edit image controller */
+"Rotate" = "Rotate"; /* NEW */
+
+/* Accessibility (Hint): Rotate button in edit image controller */
+"Rotates image clockwise." = "Rotates image clockwise."; /* NEW */
+
+/* Accessibility (Label): Settings menu button top right of Camera Controller */
+"Settings menu" = "設定メニュー";
+
+/* Accessibility (Hint): Camera view in Camera Controller */
+"Take a picture of a document" = "文書の写真を撮る";
+

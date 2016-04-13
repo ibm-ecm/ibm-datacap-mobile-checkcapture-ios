@@ -1,0 +1,124 @@
+/* Created with Localizable Strings Merge, the swiss-army knife for iOS and OS X localization. */
+
+/* Accessibility (Hint): Settings menu button top right of Camera Controller */
+"Access list of jobs and applications." = "任务和应用访问列表";
+
+/* Accessibility (Hint): Crop button in edit image controller */
+"Allows to flatten the document by selecting the four corners in the picture." = "Allows to flatten the document by selecting the four corners in the picture."; /* NEW */
+
+/* Camera mode name in switch button in camera controller
+   Title for button in Camera Controller toolbar */
+"Auto" = "自动";
+
+/* Filter button name in Camera controller */
+"B&W" = "黑白";
+
+/* Accessibility (Value): Camera filter button in Camera controller top toolbar */
+"Black and White" = "黑白";
+
+/* Accessibility (Label): Brightness slider in edit image view controller */
+"Brightness" = "Brightness"; /* NEW */
+
+/* Accessibility (Label): Filter button in edit image controller */
+"Brightness and contrast" = "Brightness and contrast"; /* NEW */
+
+/* Title of camera controller */
+"Camera" = "相机";
+
+/* Accessibility (Label): Camera filter button in Camera controller top toolbar */
+"Camera filter" = "相机滤镜";
+
+/* Accessibility (Label): Camera view in Camera Controller */
+"Camera preview" = "相机预览";
+
+/* Accessibility (Label): Camera roll view in camera controller */
+"Camera roll view" = "相机胶卷视图";
+
+/* Accessibility (Hint): Document type button in Camera controller */
+"Changes current document type." = "更改当前文档类型";
+
+/* Accessibility (Hint): Photo gallery button in camera controller */
+"Choose from photo gallery." = "从照片图库选择";
+
+/* Accessibility (Value): Camera filter button in Camera controller top toolbar
+   Filter button name in Camera controller
+   Title for button in Camera Controller toolbar */
+"Color" = "颜色";
+
+/* Accessibility (Label): Contrast slider in edit image view controller */
+"Contrast" = "Contrast"; /* NEW */
+
+/* Accessibility (Audio notification): message read out by device when photo in camera roll is deleted */
+"Deleted" = "已删除";
+
+/* Accessibility (Label): Crop button in edit image controller
+   Deskew button title in edit view controller */
+"Deskew" = "Deskew"; /* NEW */
+
+/* Accessibility (Hint): Document type button in Camera controller */
+"Dismisses menu." = "关闭菜单";
+
+/* Accessibility (Label): Document type button in Camera controller
+   Title for button in Camera Controller toolbar
+   Title of document type button when no document selected */
+"Document Type" = "文档类型";
+
+/* Accessibility (Hint): Photo in camera roll view in Camera Controller */
+"Draggable. Double tap and hold, wait for the sound, then drag up to delete" = "可拖动。双击并按住，听到声音后向上拖动来删除";
+
+/* Title of edit image view controller */
+"Edit image" = "Edit image"; /* NEW */
+
+/* Accessibility (Hint): Image editing view */
+"Features disabled in Voice Over mode" = "语音模式下禁用的功能";
+
+/* Accessibility (Label): Flash button in Camera Controller top bar */
+"Flash" = "闪光灯";
+
+/* Place holder text in camera roll in camera controller when there are no pictures */
+"Focus on a document" = "对准一个文档";
+
+/* Accessibility (Hint): Camera view in Camera Controller */
+"Focus on a document to capture it" = "对准一个文档来捕捉";
+
+/* Accessibility (Label): Image editing view */
+"Image" = "图像";
+
+/* Camera mode name in switch button in camera controller */
+"Manual" = "手动";
+
+/* Next button in Camera Controller to go to Document Assembly Controller */
+"Next" = "下一个";
+
+/* Accessibility (Value): Flash button in Camera Controller top bar
+   Flash button */
+"Off" = "关";
+
+/* Accessibility (Value): Flash button in Camera Controller top bar
+   Flash button */
+"On" = "开";
+
+/* Accessibility (Hint): Filter button in edit image controller */
+"Opens brightness and contrast menu." = "Opens brightness and contrast menu."; /* NEW */
+
+/* Accessibility (Hint): Next button in Camera Controller to go to Document Assembly Controller */
+"Opens document assembly view." = "打开文档列表视图";
+
+/* Accessibility (Label): Photo gallery button in camera controller */
+"Photo gallery" = "照片图库";
+
+/* Accessibility (Value): Photo in camera roll view in Camera Controller */
+"Photo number %ld, for page type %@, in document type %@" = "%1$ld 号图片, 页面类型 %2$@, 文档类型 %3$@";
+
+/* Accessibility (Label): Rotate button in edit image controller */
+"Rotate" = "Rotate"; /* NEW */
+
+/* Accessibility (Hint): Rotate button in edit image controller */
+"Rotates image clockwise." = "Rotates image clockwise."; /* NEW */
+
+/* Accessibility (Label): Settings menu button top right of Camera Controller */
+"Settings menu" = "设置菜单";
+
+/* Accessibility (Hint): Camera view in Camera Controller */
+"Take a picture of a document" = "给一个文档拍照";
+

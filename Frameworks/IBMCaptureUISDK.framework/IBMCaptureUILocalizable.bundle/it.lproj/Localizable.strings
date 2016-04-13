@@ -1,0 +1,124 @@
+/* Created with Localizable Strings Merge, the swiss-army knife for iOS and OS X localization. */
+
+/* Accessibility (Hint): Settings menu button top right of Camera Controller */
+"Access list of jobs and applications." = "Accesso alla lista di jobs e applicazioni.";
+
+/* Accessibility (Hint): Crop button in edit image controller */
+"Allows to flatten the document by selecting the four corners in the picture." = "Allows to flatten the document by selecting the four corners in the picture.";
+
+/* Camera mode name in switch button in camera controller
+   Title for button in Camera Controller toolbar */
+"Auto" = "Auto";
+
+/* Filter button name in Camera controller */
+"B&W" = "B&N";
+
+/* Accessibility (Value): Camera filter button in Camera controller top toolbar */
+"Black and White" = "Bianco e Nero";
+
+/* Accessibility (Label): Brightness slider in edit image view controller */
+"Brightness" = "Brightness";
+
+/* Accessibility (Label): Filter button in edit image controller */
+"Brightness and contrast" = "Brightness and contrast";
+
+/* Title of camera controller */
+"Camera" = "Camera";
+
+/* Accessibility (Label): Camera filter button in Camera controller top toolbar */
+"Camera filter" = "Filtro Camera";
+
+/* Accessibility (Label): Camera view in Camera Controller */
+"Camera preview" = "Anteprima Camera";
+
+/* Accessibility (Label): Camera roll view in camera controller */
+"Camera roll view" = "Roll view Camera";
+
+/* Accessibility (Hint): Document type button in Camera controller */
+"Changes current document type." = "Cambia tipo di documento.";
+
+/* Accessibility (Hint): Photo gallery button in camera controller */
+"Choose from photo gallery." = "Seleziona una foto dalla galleria.";
+
+/* Accessibility (Value): Camera filter button in Camera controller top toolbar
+   Filter button name in Camera controller
+   Title for button in Camera Controller toolbar */
+"Color" = "Colore";
+
+/* Accessibility (Label): Contrast slider in edit image view controller */
+"Contrast" = "Contrast";
+
+/* Accessibility (Audio notification): message read out by device when photo in camera roll is deleted */
+"Deleted" = "Eliminato";
+
+/* Accessibility (Label): Crop button in edit image controller
+   Deskew button title in edit view controller */
+"Deskew" = "Deskew";
+
+/* Accessibility (Hint): Document type button in Camera controller */
+"Dismisses menu." = "Nasconde il menu.";
+
+/* Accessibility (Label): Document type button in Camera controller
+   Title for button in Camera Controller toolbar
+   Title of document type button when no document selected */
+"Document Type" = "Tipo Documento";
+
+/* Accessibility (Hint): Photo in camera roll view in Camera Controller */
+"Draggable. Double tap and hold, wait for the sound, then drag up to delete" = "Draggable. Double tap and hold, wait for the sound, then drag up to delete";
+
+/* Title of edit image view controller */
+"Edit image" = "Edit image";
+
+/* Accessibility (Hint): Image editing view */
+"Features disabled in Voice Over mode" = "Funzionalita' disabilitata in Voice Over";
+
+/* Accessibility (Label): Flash button in Camera Controller top bar */
+"Flash" = "Flash";
+
+/* Place holder text in camera roll in camera controller when there are no pictures */
+"Focus on a document" = "Metti a fuoco il documento";
+
+/* Accessibility (Hint): Camera view in Camera Controller */
+"Focus on a document to capture it" = "Metti a fuoco il documento per acquisirlo";
+
+/* Accessibility (Label): Image editing view */
+"Image" = "Immagine";
+
+/* Camera mode name in switch button in camera controller */
+"Manual" = "Manuale";
+
+/* Next button in Camera Controller to go to Document Assembly Controller */
+"Next" = "Prossimo";
+
+/* Accessibility (Value): Flash button in Camera Controller top bar
+   Flash button */
+"Off" = "Disabilitato";
+
+/* Accessibility (Value): Flash button in Camera Controller top bar
+   Flash button */
+"On" = "Abilitato";
+
+/* Accessibility (Hint): Filter button in edit image controller */
+"Opens brightness and contrast menu." = "Opens brightness and contrast menu.";
+
+/* Accessibility (Hint): Next button in Camera Controller to go to Document Assembly Controller */
+"Opens document assembly view." = "Apri vista assemblaggio documento.";
+
+/* Accessibility (Label): Photo gallery button in camera controller */
+"Photo gallery" = "Galleria fotografica";
+
+/* Accessibility (Value): Photo in camera roll view in Camera Controller */
+"Photo number %ld, for page type %@, in document type %@" = "Foto numero %1$ld, tipo di pagina %2$@, nel documento di tipo %3$@";
+
+/* Accessibility (Label): Rotate button in edit image controller */
+"Rotate" = "Rotate";
+
+/* Accessibility (Hint): Rotate button in edit image controller */
+"Rotates image clockwise." = "Rotates image clockwise.";
+
+/* Accessibility (Label): Settings menu button top right of Camera Controller */
+"Settings menu" = "Menu configurazione";
+
+/* Accessibility (Hint): Camera view in Camera Controller */
+"Take a picture of a document" = "Scatta una foto al documento";
+

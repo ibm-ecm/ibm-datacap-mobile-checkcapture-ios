@@ -1,0 +1,6 @@
+framework module IBMCaptureUISDK {
+    umbrella header "IBMCaptureUI.h"
+    
+    export *
+    module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module IBMCaptureSDK {
+    umbrella header "IBMCapture.h"
+    
+    export *
+    module * { export * }
+}
