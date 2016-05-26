@@ -16,10 +16,10 @@
 		A1D270621C5FA9E000DEEC29 /* Cheque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D270611C5FA9E000DEEC29 /* Cheque.swift */; };
 		A1D270691C5FC56200DEEC29 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = A1D270681C5FC56200DEEC29 /* tessdata */; };
 		A1D2706B1C60E4C100DEEC29 /* ChequeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D2706A1C60E4C100DEEC29 /* ChequeViewController.swift */; };
-		F928B49C1CBEB71100669311 /* IBMCaptureUISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93EDEB41CBD341900523599 /* IBMCaptureUISDK.framework */; };
-		F928B49D1CBEB71100669311 /* IBMCaptureUISDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F93EDEB41CBD341900523599 /* IBMCaptureUISDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F928B49E1CBEB71100669311 /* IBMCaptureSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93EDEB51CBD341900523599 /* IBMCaptureSDK.framework */; };
-		F928B49F1CBEB71100669311 /* IBMCaptureSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F93EDEB51CBD341900523599 /* IBMCaptureSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F90D3FE11CCF6C9900B628C8 /* IBMCaptureUISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90D3FD91CCF6C1700B628C8 /* IBMCaptureUISDK.framework */; };
+		F90D3FE21CCF6C9900B628C8 /* IBMCaptureUISDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F90D3FD91CCF6C1700B628C8 /* IBMCaptureUISDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F90D3FE31CCF6C9900B628C8 /* IBMCaptureSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90D3FDA1CCF6C1700B628C8 /* IBMCaptureSDK.framework */; };
+		F90D3FE41CCF6C9900B628C8 /* IBMCaptureSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F90D3FDA1CCF6C1700B628C8 /* IBMCaptureSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F930145C1CBE55A500567E03 /* ChequeProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930145B1CBE55A500567E03 /* ChequeProcessor.swift */; };
 		F930145F1CBE9AF800567E03 /* ChequeZonalTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930145E1CBE9AF800567E03 /* ChequeZonalTemplate.swift */; };
 		F9A10E561CBD2ACB007812EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D270131C5F645900DEEC29 /* Main.storyboard */; };
@@ -27,14 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F928B4A01CBEB71100669311 /* Embed Frameworks */ = {
+		F90D3FE51CCF6C9900B628C8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F928B49D1CBEB71100669311 /* IBMCaptureUISDK.framework in Embed Frameworks */,
-				F928B49F1CBEB71100669311 /* IBMCaptureSDK.framework in Embed Frameworks */,
+				F90D3FE21CCF6C9900B628C8 /* IBMCaptureUISDK.framework in Embed Frameworks */,
+				F90D3FE41CCF6C9900B628C8 /* IBMCaptureSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,10 +58,10 @@
 		A1D270611C5FA9E000DEEC29 /* Cheque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheque.swift; sourceTree = "<group>"; };
 		A1D270681C5FC56200DEEC29 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../tessdata; sourceTree = "<group>"; };
 		A1D2706A1C60E4C100DEEC29 /* ChequeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChequeViewController.swift; path = UI/ChequeViewController.swift; sourceTree = "<group>"; };
+		F90D3FD91CCF6C1700B628C8 /* IBMCaptureUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMCaptureUISDK.framework; path = Frameworks/IBMCaptureUISDK.framework; sourceTree = SOURCE_ROOT; };
+		F90D3FDA1CCF6C1700B628C8 /* IBMCaptureSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMCaptureSDK.framework; path = Frameworks/IBMCaptureSDK.framework; sourceTree = SOURCE_ROOT; };
 		F930145B1CBE55A500567E03 /* ChequeProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChequeProcessor.swift; sourceTree = "<group>"; };
 		F930145E1CBE9AF800567E03 /* ChequeZonalTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChequeZonalTemplate.swift; sourceTree = "<group>"; };
-		F93EDEB41CBD341900523599 /* IBMCaptureUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBMCaptureUISDK.framework; sourceTree = "<group>"; };
-		F93EDEB51CBD341900523599 /* IBMCaptureSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBMCaptureSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F928B49C1CBEB71100669311 /* IBMCaptureUISDK.framework in Frameworks */,
-				F928B49E1CBEB71100669311 /* IBMCaptureSDK.framework in Frameworks */,
+				F90D3FE11CCF6C9900B628C8 /* IBMCaptureUISDK.framework in Frameworks */,
+				F90D3FE31CCF6C9900B628C8 /* IBMCaptureSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +166,8 @@
 		F9A10E4C1CBD2552007812EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F93EDEB41CBD341900523599 /* IBMCaptureUISDK.framework */,
-				F93EDEB51CBD341900523599 /* IBMCaptureSDK.framework */,
+				F90D3FD91CCF6C1700B628C8 /* IBMCaptureUISDK.framework */,
+				F90D3FDA1CCF6C1700B628C8 /* IBMCaptureSDK.framework */,
 				A1D270451C5F692100DEEC29 /* MBProgressHub */,
 			);
 			name = Frameworks;
@@ -209,7 +209,7 @@
 				A1D270081C5F645900DEEC29 /* Sources */,
 				A1D270091C5F645900DEEC29 /* Frameworks */,
 				A1D2700A1C5F645900DEEC29 /* Resources */,
-				F928B4A01CBEB71100669311 /* Embed Frameworks */,
+				F90D3FE51CCF6C9900B628C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -394,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/HS Cheque Capture";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
 				INFOPLIST_FILE = "HS Cheque Capture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -414,7 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/HS Cheque Capture";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
 				INFOPLIST_FILE = "HS Cheque Capture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (

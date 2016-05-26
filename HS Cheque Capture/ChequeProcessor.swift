@@ -92,11 +92,21 @@ class ChequeProcessor {
         
         let capture = self.datacapServiceConfig.capture
         
-        let page = capture.objectFactory!.pageWithDocument(nil, type: nil)
-        page.modifiedImage = image
+        let objectFactory = capture.objectFactory!
         
+        let rotatedImage = image.fixOrientation()
         
-        self.remoteComputationManager.processCheck(page, checkCountry: .UK) { (success:Bool, fields : [ICPField], error:NSError?) in
+        let page = objectFactory.pageWithDocument(nil, type: nil)
+        page.modifiedImage = rotatedImage
+        
+        let chequeFields = ["Amount", "DocumentType", "CAR", "LAR"]
+        
+        for fieldName in chequeFields {
+            let fieldType = objectFactory.fieldTypeWithTypeId(fieldName)
+            objectFactory.fieldWithObject(page, type: fieldType)
+        }
+        
+        self.remoteComputationManager.processCheck(page, checkCountry: .UK, keepAlive: false) { (success:Bool, fields : [ICPField], error:NSError?) in
             
             if success {
                 
@@ -128,13 +138,13 @@ class ChequeProcessor {
         
         for field in fields{
             
-            if let value = field.value as? String{
+            if let value = field.value as? String, let fieldType = field.type{
                 
-                switch field.type?.typeId {
-                    case "Amount"?: amount = value
-                    case "CAR"?: car = value
-                    case "LAR"?: lar = value
-                    case "DocumentType"?: docType = value
+                switch fieldType.typeId {
+                    case "Amount": amount = value
+                    case "CAR": car = value
+                    case "LAR": lar = value
+                    case "DocumentType": docType = value
                     default: break
                 }
                 
@@ -163,3 +173,21 @@ class ChequeProcessor {
     }
      
 }
+
+extension UIImage {
+    
+    func fixOrientation() -> UIImage {
+    
+        if (self.imageOrientation == .Up) {
+            return self
+        }
+        
+        let rect = CGRect(origin: CGPointZero, size: self.size)
+        UIGraphicsBeginImageContextWithOptions(self.size, false, self.scale)
+        self.drawInRect(rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
+    }
+}
+

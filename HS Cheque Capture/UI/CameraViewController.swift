@@ -48,6 +48,16 @@ class CameraViewController: UIViewController {
         self.cameraView.stopPreview()
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        
+        #if (arch(i386) || arch(x86_64)) && os(iOS)
+            self.image = UIImage(named: "tm000001")!
+            self.performSegueWithIdentifier(showPictureSegue, sender: nil)
+        #endif
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if let captureImageViewController = segue.destinationViewController as? CapureImageViewController {

@@ -17,7 +17,9 @@ class DataCapServiceConfiguration {
     private let jobId = "Manual Select"
     private let dcoName = "Transaction"
     private let credential : NSURLCredential = NSURLCredential(user: "admin", password: "admin", persistence: .None)
-    private var baseURL : NSURL = NSURL(string: "http://services-uscentral.skytap.com:8303/ServicewTM.svc")!
+    
+    private var baseURL : NSURL = NSURL(string: "http://ecm1.fws.io:8070/ServicewTM.svc")!
+    
     
     private lazy var sessionManager:ICPSessionManager = { [unowned self] in
         if let sessionManager = self.capture.datacapSessionManagerForService(self.service, withCredential: self.credential) {
